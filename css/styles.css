@@ -1,12 +1,24 @@
+.team{position: absolute;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1446px;
 
-.team-card{background: #FFFFFF;
-    /* material shadow v1 */
-
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+    background: #F5F4FA;
 
 }
-span{ color: #000000;}
+.team-card {
+        /* material shadow v1 */
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px
+ 
+        background-color: var(--second-akcent-color);
+    }
+
+
+span {
+    color: #000000;
+}
 
 .visually-hidden {
     position: absolute;
@@ -15,7 +27,6 @@ span{ color: #000000;}
     margin: -1px;
     border: 0;
     padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -26,18 +37,17 @@ span{ color: #000000;}
     /* color */
     --one-text-color: #212121;
     --second-text-color: #757575;
-    --one-backgraund-color: #ffffff;
-    --second-backgraund-color: #f5f4fa;
-    --hero-bcg: #2f303a;
-    --akcent-color: #2196f3;
-    --second-akcent-color: #ffffff;
-    --card-bcg: #eeeeee;
+    --one-backgraund-color: #FFFFFF;
+    --second-backgraund-color: #F5F4FA;
+    --hero-bcg: #2F303A;
+    --akcent-color: #2196F3;
+    --second-akcent-color: #FFFFFF;
+    --card-bcg: #EEEEEE;
     --logo-color: #000000;
     /* font */
     --one-font-family: "Roboto", sans-serif;
     --logo-font-style: "Raleway", sans-serif;
 }
-
 
 .list {
     list-style: none;
@@ -60,20 +70,16 @@ body {
     background-color: var(--second-akcent-color);
 }
 
-.logo {font-family: 'Raleway';
+.logo {
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     /* identical to box height */
-
     letter-spacing: 0.03em;
-
     color: #2196F3;
-    
 }
-
-
 
 .site-nav .link {
     font-weight: 500;
@@ -197,7 +203,7 @@ a.link.current {
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
-    color: #ffffff;
+    color: #FFFFFF;
 }
 
 .footer-adr:hover,
@@ -219,7 +225,6 @@ a.link.current {
 }
 
 /* Сторінка 2 */
-
 .button-card {
     font-family: var(--one-font-family);
     font-weight: 500;
